@@ -37,7 +37,7 @@ except AssertionError:
 else:
 	print("Acertooooou!!!!")
 	try:
-		assert Verifica_idade(17)
+		assert verifica_idade(17)
 	except AssertionError:
 		print("Errooooooou!!!!!!")
 	else:
