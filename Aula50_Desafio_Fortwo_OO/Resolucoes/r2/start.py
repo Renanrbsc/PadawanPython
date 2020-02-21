@@ -1,5 +1,5 @@
-from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.viagem import viagem, terminal, aviao
 
+from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.viagem import viagem, terminal, aviao
 
 viagem('policial','presidiario', terminal, aviao)
 viagem('policial','', aviao, terminal)
