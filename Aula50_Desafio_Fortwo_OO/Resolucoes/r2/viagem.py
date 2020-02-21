@@ -1,10 +1,10 @@
 from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.embarque import embarque
 from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.desembarque import desembarque
 
-from Aula60.ForTwo.r2.terminal import Terminal
-from Aula60.ForTwo.r2.aviao import Aviao
-from Aula60.ForTwo.r2.local import Local
-from Aula60.ForTwo.r2.fortwo import Fortwo
+from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.terminal import Terminal
+from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.aviao import Aviao
+from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.local import Local
+from Aula50_Desafio_Fortwo_OO.Resolucoes.r2.fortwo import Fortwo
 
 terminal = {'descricao':'terminal', 'pessoas': ['piloto','oficial1','oficial2','chefe de serviço','comissário1','comissário2','policial','presidiario']}
 aviao = { 'descricao':'aviao', 'pessoas': [] }
