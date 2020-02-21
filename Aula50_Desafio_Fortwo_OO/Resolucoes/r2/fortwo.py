@@ -33,9 +33,12 @@ class Fortwo:
         elif self.__motorista == 'chefe de serviço' :
             if pessoa != 'oficial1' and pessoa != 'oficial2' and pessoa != 'presidiário':
                 return True
+        elif self.__motorista in self.__pessoas_permitidas:
+            if self.__passageiro == '':
+                return True
         return False
 
-    def viagem(self, origem:Local, destino):
+    def viagem(self, origem:Local, destino:Local):
         print(f"Saindo do {origem}")
         print('Iniciando a viagem...')
         print(f'motorista: {self.__motorista} passageiro: {self.__passageiro}')
