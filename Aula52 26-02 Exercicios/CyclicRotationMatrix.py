@@ -19,9 +19,6 @@ class CyclicRotation:
             print(f"{previous_list}-->{self.list_with_values}")
 
 
-
-
-
 m = CyclicRotation()
 m.create_list_with_values()
 m.rotation_list()
