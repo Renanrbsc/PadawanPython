@@ -33,7 +33,7 @@ class Fortwo:
         elif self.__motorista == 'chefe de serviço' :
             if pessoa != 'oficial1' and pessoa != 'oficial2' and pessoa != 'presidiário':
                 return True
-        elif self.__motorista in self.__pessoas_permitidas:
+        if self.__motorista in self.__pessoas_permitidas:
             if self.__passageiro == '':
                 return True
         return False
