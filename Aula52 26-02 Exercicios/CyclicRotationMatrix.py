@@ -1,4 +1,15 @@
 
+# Codility test
+#def solution(A,K):
+#  if not A:
+#      A = []
+#      return A
+#  else:
+#    for i in range(K):
+#      A.insert(0, A[-1])
+#      A.pop()
+#    return A
+
 class CyclicRotation:
 
     def __init__(self):
