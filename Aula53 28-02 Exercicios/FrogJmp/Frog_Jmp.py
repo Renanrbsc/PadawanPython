@@ -10,12 +10,10 @@
 # Escreva um algoritmo eficiente para as seguintes suposições:
 
 def solution(X,Y,D):
-    total = 10
-
-    while True:
-        total = total + 30
-        if total >= 85:
-            break
-    return total
+    jump_distance = Y - X
+    jump_obtained = jump_distance / D
+    if (jump_obtained % D) != 0:
+        jump_obtained += 1
+    return int(jump_obtained)
     
-print(solution(10,85,30))
+print(solution(10, 85, 30))
