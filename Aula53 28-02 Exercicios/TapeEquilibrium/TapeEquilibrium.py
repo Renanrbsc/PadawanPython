@@ -37,7 +37,7 @@ def solution(A):
     sum_with_next_element = 0
     for i in A[:-1]:
         sum_with_next_element += i
-        min_value_possible = min(abs(sum_list - 2*sum_with_next_element), infinity_number)
-    return min_value_possible
+        infinity_number = min(abs(sum_list - 2*sum_with_next_element), infinity_number)
+    return infinity_number
 
 print(solution([3,1,2,4,3]))
