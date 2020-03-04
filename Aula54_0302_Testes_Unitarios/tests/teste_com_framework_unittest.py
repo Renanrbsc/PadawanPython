@@ -1,6 +1,6 @@
 import unittest
 from unittest import TestCase
-from tests.defs import soma
+from defs import soma
 
 class TestComFramework(TestCase):
 
@@ -16,3 +16,4 @@ class TestComFramework(TestCase):
   
 #  python -m unittest tests\teste_com_framework_unittest.py
 #  py -m unittest tests\teste_com_framework_unittest.py
+#  py -m unittest teste_com_framework_unittest.py
